@@ -43,7 +43,7 @@ body{
 }
 
 .nav__hero{
-    color: #1A1B1F;
+    color: #1a1f1a;
     height: 70px;
     border-bottom: 1px solid rgba(255,255,255, 0.1);
 }
@@ -70,8 +70,8 @@ body{
 }
 
 .link--active{
-    color: var(--gold1);
-    font-weight: 700;
+    color: goldenrod;
+    font-weight: 1000;
 }
 
 .point{
@@ -509,7 +509,7 @@ body{
 .socialmedia{
     margin-top: 24px;
     display: flex;
-    color: var(--black2);
+    color:;
 }
 
 .socialmedia__icon{
@@ -519,7 +519,7 @@ body{
 }
 
 .socialmedia__legend{
-    color: var(--black2);
+    color:white;
     margin-right: 16px;
 }
 
@@ -651,6 +651,7 @@ body{
 
     .nav__hero{
         height: auto;
+        width: 100%;
     }
 
     .logo{
@@ -660,7 +661,7 @@ body{
 
     .links{
         padding-bottom: 10px;
-        text-align: center;
+        text-align: right;
     }
 
     .link{
@@ -1007,3 +1008,10 @@ h3{
 html {
     scroll-behavior: smooth;
   }
+  .logo{
+    float: center;
+    margin-left: auto;
+    align-items: right;
+    padding: 14px 16px;
+    display: block; }
+    
